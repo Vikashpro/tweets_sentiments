@@ -5,11 +5,11 @@ import numpy as np
 import operator
 
 #step 1 : get authentication
-consumer_key = 'aH3LRMdGy9B1OYjEgF3BArsp4'
-consumer_secret = 'qvVFs3hLM7px60SS5ThZqAfcm2J2LpyZyUAhKqEsnzalE2U1az'
+consumer_key = 'COMSUMER_KEY'
+consumer_secret = 'CONSUMER_SECRET'
 
-access_token = '3280941524-2EDtMYlxm15Y0KQDAbCBh4qOe0FFF0fbZhTUuo3'
-access_token_secret = 'WGDTYuSdq5XpgSCGNHuStj6fMeojN8CV043hW4cwUbOUI'
+access_token = 'ACCESS_TOKEN'
+access_token_secret = 'ACCESS_TOKEN_SECRET'
 
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
